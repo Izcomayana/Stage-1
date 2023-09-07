@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(57, 57, 57);
+  color: rgb(212, 212, 212);
+}
+
+.container {
+  width: 80%;
+  margin: 3.5rem auto;
+  text-align: center;
+}
+
+header img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+@media (min-width: 750px) {
+  header img {
+    width: 30%;
+  }
+}
+
+main {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 750px) {
+  main {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    font-size: 1.25rem;
+  }
+}
+
+.elements {
+
+}
+
+.elements span {
+  text-decoration: underline;
+}
+ 
+button {
+  background-color: rgb(212, 212, 212);
+  color: rgb(60, 60, 60);
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 0;
+  transition: 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(159, 159, 159);
+  transition: 150ms ease-in-out;
+}

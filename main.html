@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>HNG - Stage 1 Task</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./picture.jpg" alt="Mayana" data-testid="slackDisplayImage">
+    </header>
+    
+    <main>
+        <p class="elements"> <span data-testid="slackUserName">Slack Name:</span> Israel Sotoyinbo</p>
+        <p class="elements"><span data-testid="currentDayOfTheWeek">Current Day Of The Week:</span> Thursday</p>
+        <p class="elements">Current UTC Time: <span id="utc-time" data-testid="currentUTCTime">Loading...</span></p>
+        <p class="elements"><span data-testid="myTrack">Track: </span> Frontend Development</p>
+        <p class="elements"><span data-testid=“githubURL”>GitHub URL: </span>https://github.com/izcomayana</p>
+    </main>
+        
+    <button id="refresh-btn" data-testid="refresh-button">Refresh Data</button>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
