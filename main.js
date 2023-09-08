@@ -1,10 +1,13 @@
 function updateUTCTime() {
-  const utcTimeElement = document.getElementById('utc-time');
-    const currentTimeMillis = new Date().getTime();
-    const currentTimeUTC = new Date(currentTimeMillis).toUTCString();
-    utcTimeElement.textContent = currentTimeUTC;
+  // const currentTimeMillis = new Date().getTime();
+  // const currentTimeUTC = new Date(currentTimeMillis).toUTCString();
 
-    console.log("UTC Time uploaded")
+  const utcTimeElement = document.getElementById('utc-time');
+  const currentUTCTimeInMillis = Date.now();
+  console.log(currentUTCTimeInMillis);
+  utcTimeElement.textContent = currentUTCTimeInMillis;
+
+  console.log("UTC Time uploaded")
 }
 
 document.getElementById('refresh-btn').addEventListener('click', updateUTCTime);
