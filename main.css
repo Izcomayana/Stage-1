@@ -1,6 +1,5 @@
 body {
   background-color: rgb(57, 57, 57);
-  color: rgb(212, 212, 212);
 }
 
 .container {
@@ -9,34 +8,93 @@ body {
   text-align: center;
 }
 
-header img {
+.slackDisplayImage {
   width: 50%;
   object-fit: cover;
   border-radius: 100%;
 }
 
 @media (min-width: 750px) {
-  header img {
+  .slackDisplayImage {
     width: 30%;
   }
 }
 
-main {
-  font-size: 0.75rem;
+.slackUserName {
+  font-size: 1rem;
+  color: rgb(212, 212, 212);
+}
+
+.currentDayOfTheWeek {
+  font-size: 0.8rem;
+  color: rgb(212, 212, 212);
+}
+
+.currentUTCTime {
+  font-size: 0.8rem;
+  color: rgb(212, 212, 212);
+}
+
+.myTrack {
+  font-size: 0.8rem;
+  color: rgb(212, 212, 212);
+}
+
+.githubURL {
+  font-size: 0.8rem;
+  color: rgb(169, 146, 146);
 }
 
 @media (min-width: 750px) {
-  main {
+  .slackUserName {
+    font-size: 1.25rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .currentDayOfTheWeek {
     font-size: 1rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .currentUTCTime {
+    font-size: 1rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .myTrack {
+    font-size: 1rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .githubURL {
+    font-size: 1rem;
+    color: rgb(169, 146, 146);
   }
 }
 
 @media (min-width: 1024px) {
-  main {
-    font-size: 1.25rem;
+  .slackUserName {
+    font-size: 1.5rem;
+    color: rgb(212, 212, 212);
   }
-}
-
-a {
-  color: rgb(212, 212, 212);;
+  
+  .currentDayOfTheWeek {
+    font-size: 1.25rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .currentUTCTime {
+    font-size: 1.25rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .myTrack {
+    font-size: 1.25rem;
+    color: rgb(212, 212, 212);
+  }
+  
+  .githubURL {
+    font-size: 1.25rem;
+    color: rgb(169, 146, 146);
+  }
 }
